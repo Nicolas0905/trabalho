@@ -1,0 +1,40 @@
+/* Estilos CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between; /* Adiciona espaço entre logo e botões */
+    align-items: center; /* Alinha verticalmente ao centro */
+    padding: 20px 20px; /* Adicionei padding no lado direito para separar a logo dos botões */
+}
+
+.logo {
+    max-width: 200px;
+}
+
+.cta-buttons {
+    display: flex;
+}
+
+.cta-button {
+    margin-right: 10px;
+    background-color: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #ff814e;
+}
