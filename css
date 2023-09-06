@@ -3,12 +3,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f3f3f3;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: rgb(11, 34, 161);
+    color: rgb(241, 234, 234);
     display: flex;
     justify-content: space-between; /* Adiciona espaço entre logo e botões */
     align-items: center; /* Alinha verticalmente ao centro */
@@ -25,7 +25,7 @@ header {
 
 .cta-button {
     margin-right: 10px;
-    background-color: #ff5733;
+    background-color: #09e8f059;
     color: #fff;
     text-decoration: none;
     border: none;
@@ -36,5 +36,5 @@ header {
 }
 
 .cta-button:hover {
-    background-color: #ff814e;
+    background-color: #00d9ff36;
 }
