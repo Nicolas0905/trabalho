@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: rgb(11, 34, 161);
+    background-color: rgb(0, 0, 0);
     color: rgb(241, 234, 234);
     display: flex;
     justify-content: space-between; /* Adiciona espaço entre logo e botões */
@@ -16,7 +16,9 @@ header {
 }
 
 .logo {
-    max-width: 200px;
+    height: 80px;
+    width: 80px;
+    
 }
 
 .cta-buttons {
@@ -24,17 +26,17 @@ header {
 }
 
 .cta-button {
-    margin-right: 10px;
-    background-color: #09e8f059;
+    margin-right: 5px;
+    background-color: #0c1b70ee;
     color: #fff;
     text-decoration: none;
     border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
+    border-radius: 6px;
+    padding: 5px 15px;
     font-size: 16px;
     cursor: pointer;
 }
 
 .cta-button:hover {
-    background-color: #00d9ff36;
+    background-color: #898b9636;
 }
