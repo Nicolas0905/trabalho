@@ -1,42 +1,77 @@
-/* Estilos CSS */
+/* Estilos globais */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f3f3f3;
 }
 
-header {
+/* Estilos do cabeçalho */
+.vinicios
+ {
     background-color: rgb(0, 0, 0);
-    color: rgb(241, 234, 234);
-    display: flex;
-    justify-content: space-between; /* Adiciona espaço entre logo e botões */
-    align-items: center; /* Alinha verticalmente ao centro */
-    padding: 20px 20px; /* Adicionei padding no lado direito para separar a logo dos botões */
+    color: #fff;
+    padding: 20px;
 }
 
-.logo {
-    height: 80px;
-    width: 80px;
-    
+.logo img {
+    height: 40px;
 }
 
-.cta-buttons {
-    display: flex;
+/* Estilos da seção herói */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f4f4f4;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
 }
 
 .cta-button {
-    margin-right: 5px;
-    background-color: #0c1b70ee;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff5722;
     color: #fff;
     text-decoration: none;
-    border: none;
-    border-radius: 6px;
-    padding: 5px 15px;
-    font-size: 16px;
-    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #898b9636;
+    background-color: #e64a19;
+}
+
+/* Estilos da seção CTA */
+.cta-section {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
