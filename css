@@ -1,77 +1,88 @@
-/* Estilos globais */
+/* Estilos gerais */
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
+    background-color: #fff;
     margin: 0;
     padding: 0;
 }
 
-/* Estilos do cabeçalho */
-.vinicios
- {
+/* Barra de navegação */
+.navbar {
     background-color: rgb(0, 0, 0);
     color: #fff;
-    padding: 20px;
-}
-
-.logo img {
-    height: 40px;
-}
-
-/* Estilos da seção herói */
-.hero {
+    padding: 10px;
     text-align: center;
-    padding: 100px 0;
-    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.hero h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+/* Logotipo */
+.logo {
+    max-width: 90px;
+    display: block;
 }
 
-.hero p {
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 30px;
+/* Botões do cabeçalho */
+.header-buttons {
+    margin-right: 20px;
 }
 
-.cta-button {
-    display: inline-block;
-    padding: 15px 30px;
-    background-color: #ff5722;
+.header-button {
+    background-color: #000000;
     color: #fff;
+    padding: 10px;
     text-decoration: none;
-    font-size: 20px;
-    border-radius: 5px;
+    font-size: 12px;
+    margin: 0 10px;
+    border-radius: 12px;
     transition: background-color 0.3s ease;
 }
 
-.cta-button:hover {
-    background-color: #e64a19;
+.header-button:hover {
+    background-color: #0056b3;
 }
 
-/* Estilos da seção CTA */
-.cta-section {
-    background-color: #333;
+/* Estilos para as seções alternadas */
+.section-black {
+    background-color: #000000;
     color: #fff;
+    padding: 40px;
     text-align: center;
-    padding: 100px 0;
 }
 
-.cta-section h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.cta-section p {
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-
-/* Estilos do rodapé */
-footer {
-    background-color: #333;
-    color: #fff;
+.section-white {
+    background-color: #fff;
+    padding: 40px;
     text-align: center;
-    padding: 20px 0;
+    margin-bottom: 80px;
+    margin-top: 80px;
 }
+
+.section-white h2,
+.section-black h2 {
+    font-size: 24px;
+}
+
+.section-white p,
+.section-black p {
+    font-size: 16px;
+font-weight: bold;
+
+}
+
+.botao-cta{
+  margin-top: 50px;
+  background-color: #0056b3;
+  padding: 30px;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  border-color: #fff;
+}
+
+.botao-cta:hover{
+  background-color: blueviolet;
+}
+
